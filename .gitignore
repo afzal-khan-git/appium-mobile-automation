@@ -1,0 +1,95 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+target/
+build/
+*.iml
+.gradle/
+bin/
+out/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+# Appium
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+appium.log
+*.app
+*.apk
+*.ipa
+
+# Test Reports & Screenshots
+test-output/
+allure-results/
+allure-report/
+screenshots/
+reports/
+extent-reports/
+surefire-reports/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE
+.idea/
+*.iws
+*.ipr
+.eclipse/
+.settings/
+.classpath
+.project
+.metadata/
+
+# Logs
+*.log
+logs/
+
+# Environment & Config
+.env
+.env.local
+config/local.properties
+secrets.properties
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
